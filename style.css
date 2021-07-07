@@ -1,0 +1,107 @@
+body {
+    background-color: aqua;
+}
+.signup {
+    font-size: 2rem;
+    float: right;
+    top: 0; 
+    /* background-color: rgb(156, 10, 10); */
+    padding: 1rem; 
+    list-style-type: none;  
+}
+.services {
+    font-size: 3rem;
+}
+div hr {
+    margin-top: 7rem;
+}
+
+#home {
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 3px;
+}
+img {
+    float: right;
+    box-shadow: 5rem;
+}
+ul .nav {
+    display: inline;
+    color: white;
+    
+    font: bold;
+    font-size: 3rem;
+    text-decoration: none;
+    list-style-type: none;
+}
+.top {
+    position: fixed;
+    top: 0;
+}
+.a, .b, .c, .d {
+    background-color: rgb(156, 10, 10);
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 1rem 1rem 1rem;
+    z-index: -1;
+    
+}
+#home {
+    color:rgb(156, 10, 10);
+    text-align: justify;
+}
+
+#aboutus {
+    color:rgb(156, 10, 10);
+}
+h2 {
+    color: rgb(156, 10, 10);
+    font-size: 3rem;
+    padding: 1rem 1rem 1rem 0rem;
+    text-align: center;
+    border-radius: 2rem;  
+    background-color: white;  
+}
+#signup {
+    float: left;
+}
+img {
+    width: 500px;
+    height: 280px;
+    float: right;
+    box-shadow: 10px 10px 5px 5px grey;
+    z-index: 20;
+}
+.aboutus {
+    font-size: 3rem;
+    text-align: left;
+}
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: -1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    z-index: -100;
+  }
+  div span {
+      background-color: red;
+      color: white;
+      padding: 1rem;
+      
+  }
